@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StuUnionView {
-    private Integer uName;
+    private String uName;
     private Integer uSize;
 }

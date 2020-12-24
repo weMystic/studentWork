@@ -10,7 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class StuUnion {
 
-    private String id;
+    private Integer id;
+    private String stuUnionId;
     private String name;
     private Integer establishedYear;
     private String place;

@@ -8,11 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Sjoin {
-    private  int id;
+    private  Integer id;
 
-    private int uid;
+    private String uid;
     
-    private int sid;
+    private String sid;
     
     private int joinYear;
 }

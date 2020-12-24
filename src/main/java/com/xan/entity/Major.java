@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Major {
     private Integer id;
+    private String majorId;
     private String name;
-    private Integer deptId;
+    private String deptId;
 }

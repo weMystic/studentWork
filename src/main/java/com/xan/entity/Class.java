@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Class {
-    private Integer classId;
+    private Integer id;
+    private String classId;
     private Integer yearOfEnrollment;
     private Integer size; //总人数
     private String majorId;

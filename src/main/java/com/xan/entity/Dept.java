@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 public class Dept {
 
     private Integer id;
+    private String deptId;
     private String name;
     private String place;
     private Integer size;
